@@ -1,0 +1,129 @@
+body {
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0px;
+  font-family: helvetica;
+  text-align: center;
+}
+
+header {
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+}
+
+.logo img {
+  align-self: center;
+  padding: 10px;
+  height: 50px;
+  width: 157px;
+}
+
+.menu {
+  align-self: center;
+  padding: 50px;
+}
+
+span  {
+  text-decoration: underline;
+  padding: 20px;
+}
+
+span a {
+color: inherit;
+}
+
+.content {
+  z-index: 1;
+}
+
+.mission-container {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+
+.mission-content {
+  display: inline-block;
+  background-color: black;
+  margin-top: 200px;
+  padding: 10px;
+  min-width: 100%;
+  max-height: 100px;
+  flex: 0 1 auto;
+  position: relative;
+}
+
+.tea-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tea-box {
+  flex: 0 1 auto;
+  position: relative;
+  display: inline-block;
+  max-width: 300px;
+  max-height: 200px;
+  padding-bottom: 60px;
+}
+
+.tea-box img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.location-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.location-container h2 {
+  position: relative;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.location-box{
+  display: inline-block;
+  background-color: black;
+  padding: 30px;
+  min-width: 300px;
+  max-height: 200px;
+}
+
+.location-box h3, .location-box p {
+  padding: 6px;
+}
+
+.contact {
+  padding: 15px;
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
